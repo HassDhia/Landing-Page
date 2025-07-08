@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
 <!-- ===================================================================
-  Hass • AI & RevOps Automation Engineer
-  One‑scroll proof page for recruiters / hiring managers (v2025‑07‑08‑final)
+  Hass Dhia • AI‑Driven Automation & RevOps Engineer
+  One‑scroll proof page for recruiters / hiring managers  (v2025‑07‑08 pro)
 =================================================================== -->
 <head>
   <meta charset="utf-8">
-  <title>Hass · AI & RevOps Automation Engineer</title>
+  <title>Hass Dhia · AI‑Driven Automation & RevOps Engineer</title>
 
-  <!-- —— SEO / share —— -->
+  <!-- —— SEO & share —— -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-        content="I erase go‑to‑market bottlenecks with code‑level automation. 90‑second proof below. Open to Automation Engineer • RevOps Engineer • Growth‑Ops Lead roles.">
-  <meta property="og:title"       content="90‑sec demo • Hass turns busy‑work into margin">
-  <meta property="og:description" content="Watch the 90‑second proof that ships revenue, not clicks, then grab 15 minutes of my brain.">
+        content="90‑sec demo proves I erase GTM bottlenecks with code‑level automation. Open to Automation Solutions Engineer • QA/Test Automation Architect • Data Pipeline/BI Consultant • Fractional Rev‑Ops Admin • AI Product Consultant • Technical Program Manager roles.">
+  <meta property="og:title"       content="90‑sec demo • Hass kills busy‑work with AI‑driven automation">
+  <meta property="og:description" content="Scroll once—see the code receipts, enterprise outcomes, and book a 15‑min call.">
   <meta property="og:image"       content="https://cdn.yoursite.com/og‑demo.png">
   <meta property="og:url"         content="https://hass.dev">
   <meta name="twitter:card"       content="summary_large_image">
@@ -21,7 +21,7 @@
   <!-- tiny CSS framework -->
   <link rel="stylesheet" href="https://unpkg.com/mvp.css">
 
-  <!-- preload hero thumbnail & perf hints -->
+  <!-- perf hints -->
   <link rel="preload" as="image" href="https://cdn.yoursite.com/loom‑thumb.jpg">
   <link rel="preconnect" href="https://cdn.loom.com">
   <link rel="preconnect" href="https://calendly.com">
@@ -45,61 +45,64 @@
     header,section,footer{ text-align:center; margin:2.8rem 0; }
     section{ display:block !important; }
 
-    /* headline */
-    h1{ font-size:2rem; margin-bottom:.6rem; }
+    h1{ font-size:2.2rem; margin-bottom:.4rem; line-height:1.25; }
+    .subtitle{font-size:1rem;color:var(--muted);margin-top:.25rem;}
 
-    /* sub‑roles line */
-    .roles{font-size:.9rem;color:var(--muted);margin-top:.25rem;}
-
-    /* metric chips */
-    .metrics{margin:1rem 0 1.6rem;}
+    /* chips & badges */
+    .metrics{margin:1.2rem 0 1.8rem;}
     .chip{background:var(--chip-bg);color:var(--chip-fg);font-weight:600;
-          padding:.25rem .75rem;margin:.25rem;border-radius:4px;display:inline-block;}
+          padding:.25rem .75rem;margin:.3rem;border-radius:4px;display:inline-block;}
 
     /* buttons */
-    .btn{display:inline-block;padding:.75rem 1.6rem;border-radius:4px;
-         font-weight:600;text-decoration:none;margin:.45rem;transition:filter .15s;}
+    .btn{display:inline-block;padding:.78rem 1.6rem;border-radius:4px;font-weight:600;
+         text-decoration:none;margin:.45rem;transition:filter .15s;}
     .primary{background:var(--accent);color:#fff;}
-    .primary:hover{filter:brightness(1.08);}
+    .primary:hover{filter:brightness(1.1);}
     .secondary{background:transparent;color:var(--accent);border:2px solid var(--accent);}
     .secondary:hover{background:var(--accent);color:#fff;}
 
     /* logo belt */
-    .logo-belt{display:flex;justify-content:center;flex-wrap:wrap;
-               gap:26px;margin:1.6rem 0;}
+    .logo-belt{display:flex;justify-content:center;flex-wrap:wrap;gap:28px;margin:1.8rem 0;}
     .logo-belt img{height:32px;filter:grayscale(1) brightness(.9);opacity:.8;}
     html.dark .logo-belt img{filter:grayscale(1) brightness(1.2);}
 
     /* risk banner */
-    .risk-banner{background:#e0f2ff;color:#034ca1;padding:.6rem 1rem;
-                 border-radius:6px;font-size:.9rem;margin:1.6rem auto;max-width:520px;}
+    .risk-banner{background:#e0f2ff;color:#034ca1;padding:.6rem 1rem;border-radius:6px;
+                 font-size:.9rem;margin:1.8rem auto;max-width:540px;}
     html.dark .risk-banner{background:#083c7e;color:#dbeafe;}
 
     /* sticky CTA */
     #stickyDemo{position:fixed;right:1rem;top:-80px;z-index:1000;transition:top .3s;
-                background:var(--accent);color:#fff;padding:.55rem 1.1rem;
-                border-radius:4px;font-weight:600;text-decoration:none;font-size:.9rem;}
+                background:var(--accent);color:#fff;padding:.55rem 1.1rem;border-radius:4px;
+                font-weight:600;text-decoration:none;font-size:.9rem;}
 
     /* repo list + skeleton */
     #repoSkeleton li{background:#f3f4f6;height:18px;margin:.6rem 0;border-radius:3px;
                      animation:pulse 1.4s infinite ease-in-out;}
     html.dark #repoSkeleton li{background:#1e293b;}
     @keyframes pulse{0%,100%{opacity:.25;}50%{opacity:.6;}}
-    #repos{list-style:none;padding:0;text-align:left;max-width:660px;margin:1.3rem auto;}
-    #repos li{margin:.55rem 0;line-height:1.35;}
-    #repos code{background:#f1f5f9;border-radius:4px;padding:.1rem .35rem;}
+    #repos{list-style:none;padding:0;text-align:left;max-width:680px;margin:1.4rem auto;}
+    #repos li{margin:.58rem 0;line-height:1.35;}
+    #repos code{background:#f1f5f9;border-radius:4px;padding:.15rem .4rem;font-size:.85rem;}
     html.dark #repos code{background:#1e2533;}
 
     /* testimonial grid */
-    .test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.4rem;margin-top:1.2rem;}
-    .card{background:rgba(0,0,0,.04);padding:1.1rem;border-radius:6px;}
+    .test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;margin-top:1.3rem;}
+    .card{background:rgba(0,0,0,.045);padding:1.1rem;border-radius:6px;}
     html.dark .card{background:rgba(255,255,255,.06);}
     .card img{height:36px;width:36px;border-radius:50%;margin-bottom:.6rem;}
-    .card p{font-size:.9rem;margin:.4rem 0 0;line-height:1.35;}
+    .card p{font-size:.9rem;margin:.4rem 0;line-height:1.35;}
+
+    /* role & outcome sections */
+    .role-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.1rem;margin:1.4rem 0;}
+    .role{border:1px solid #e5e7eb;border-radius:6px;padding:1rem;font-size:.87rem;}
+    html.dark .role{border-color:#374151;}
+    .outcome-list{max-width:720px;margin:1.2rem auto;text-align:left;}
+    .outcome-list li{margin:.55rem 0;}
 
     /* contact form */
-    form{max-width:450px;margin:1.4rem auto;}
-    form label{text-align:left;display:block;margin:.9rem 0 .35rem;}
+    form{max-width:460px;margin:1.6rem auto;}
+    form label{text-align:left;display:block;margin:.95rem 0 .35rem;font-weight:500;}
     form button{width:100%;background:var(--accent);color:#fff;font-weight:700;}
 
     /* workflow image */
@@ -107,14 +110,12 @@
     html.dark img.workflow{border-color:#374151;}
 
     /* footer */
-    #freshDot{display:inline-block;margin-right:.25rem;width:7px;height:7px;
-              border-radius:50%;background:#47ff00;animation:blink 2.3s ease-in-out 1;}
+    #freshDot{display:inline-block;margin-right:.25rem;width:7px;height:7px;border-radius:50%;
+              background:#47ff00;animation:blink 2.3s ease-in-out 1;}
     @keyframes blink{0%,100%{opacity:0;}60%{opacity:1;}}
-    #themeToggle{position:fixed;bottom:1rem;right:1rem;background:var(--accent);
-                 color:#fff;border:none;border-radius:50%;width:44px;height:44px;
-                 font-size:1.2rem;cursor:pointer;}
+    #themeToggle{position:fixed;bottom:1rem;right:1rem;background:var(--accent);color:#fff;
+                 border:none;border-radius:50%;width:44px;height:44px;font-size:1.2rem;cursor:pointer;}
 
-    /* reduced‑motion */
     @media(prefers-reduced-motion:reduce){#repoSkeleton li{animation:none;}}
   </style>
 </head>
@@ -124,52 +125,75 @@
   <a id="stickyDemo" href="https://loom.com/share/your-demo" target="_blank">▶ 90‑sec Demo</a>
 
   <!-- dark‑mode toggle -->
-  <button id="themeToggle" aria-label="Toggle dark mode">��</button>
+  <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
 
-  <!-- ========== HERO ========= -->
+  <!-- ================= HERO ================= -->
   <header>
-    <h1>Turn busy‑work into margin.</h1>
-    <p>I'm Hass — Automation & RevOps engineer who ships impact in <strong>days, not months.</strong></p>
-    <div class="roles">Open to: Automation Engineer · RevOps Engineer · Growth‑Ops Lead</div>
+    <h1>AI‑driven automation that prints margin.</h1>
+    <p class="subtitle">I ship full‑cycle systems that cut cost & time in <strong>days, not quarters.</strong></p>
 
     <!-- metric chips -->
     <div class="metrics">
-      <span class="chip"><span data-count="37">0</span>% Qualified Leads</span>
-      <span class="chip">⌀ <span data-count="2">0</span> hr MTTR</span>
-      <span class="chip">$<span data-count="120">0</span> k Opex Saved</span>
+      <span class="chip"><span data-count="37">0</span>% Qualified Leads ↑</span>
+      <span class="chip">⌀ <span data-count="2">0</span> hr MTTR</span>
+      <span class="chip">$<span data-count="120">0</span> k Opex Saved</span>
     </div>
 
     <!-- CTAs -->
     <a class="btn primary" href="https://loom.com/share/your-demo" target="_blank">▶ Watch 90‑sec Proof</a>
-    <a class="btn secondary" id="calBtn" href="https://calendly.com/hass-ops/interview" target="_blank">📅 Book 15‑min Call</a>
+    <a class="btn secondary" id="calBtn" href="https://calendly.com/hass-ops/interview" target="_blank">📅 Book 15 min Call</a>
   </header>
 
   <!-- logo belt -->
-  <div class="logo-belt">
-    <img src="https://cdn.yoursite.com/logos/zapier.svg" alt="Zapier logo">
-    <img src="https://cdn.yoursite.com/logos/upwork.svg" alt="Upwork logo">
-    <img src="https://cdn.yoursite.com/logos/arc.svg" alt="Arc logo">
+  <div class="logo-belt" aria-label="Brands I've worked with">
+    <img src="https://cdn.yoursite.com/logos/zapier.svg" alt="Zapier">
+    <img src="https://cdn.yoursite.com/logos/upwork.svg" alt="Upwork">
+    <img src="https://cdn.yoursite.com/logos/arc.svg" alt="Arc">
   </div>
 
   <!-- risk reversal -->
   <div class="risk-banner">
-    7‑day pay‑on‑results trial: if ROI &lt; 10× my fee, you pay $0.
+    7‑day pay‑on‑results trial → If ROI &lt; 10× my fee, you pay $0.
   </div>
 
-  <!-- ========== REPOS ========= -->
+  <!-- ================= TARGET ROLES ================= -->
   <section>
-    <h2>3 Code Receipts → <span id="impact">$‑‑‑ saved</span></h2>
+    <h2>Roles in My Sweet‑Spot</h2>
+    <div class="role-grid">
+      <div class="role"><strong>Automation Solutions Engineer</strong><br>Deploy n8n/Zapier stacks that replace manual swivel‑chair ops.</div>
+      <div class="role"><strong>QA / Test Automation Architect</strong><br>Python + Playwright suites; one‑click CI saving eng. hours.</div>
+      <div class="role"><strong>Data Pipeline / BI Consultant</strong><br>Airbyte → dbt + viz dashboards turning raw data into decisions.</div>
+      <div class="role"><strong>Fractional Rev‑Ops Admin</strong><br>HubSpot / SFDC pipelines, dashboards, triggers — 2‑3 clients parallel.</div>
+      <div class="role"><strong>AI Product Consultant</strong><br>Scope LLM use‑cases, craft prompts, deliver PoCs in days.</div>
+      <div class="role"><strong>Technical Program Manager</strong><br>Remote PMO for lean SaaS — async JIRA + KPI reporting.</div>
+    </div>
+  </section>
+
+  <!-- ================= REPOS ================= -->
+  <section>
+    <h2>Live Code Proof <small>(auto‑pulled)</small> → <span id="impact">$‑‑‑ saved</span></h2>
     <ul id="repoSkeleton"><li></li><li></li><li></li></ul>
     <ul id="repos" hidden></ul>
   </section>
 
-  <!-- ========== TESTIMONIALS ========= -->
+  <!-- ================= ENTERPRISE OUTCOMES ================= -->
   <section>
-    <h2>What hiring managers say</h2>
+    <h2>Enterprise‑Grade Outcomes from Startup Wins</h2>
+    <ul class="outcome-list">
+      <li><strong>Global supply‑chain negotiation</strong> with top‑3 MedTech manufacturers; priced 3‑SKU BOM within 5 % of target margin.</li>
+      <li><strong>Fully automated GTM engine</strong> (10+ SaaS nodes, &lt; 2 h / week upkeep) cutting SDR labor 90 %.</li>
+      <li><strong>Opened C‑suite channel</strong> at Fortune 100 energy giant, maintained 3‑year strategic dialogue on $100 M+ projects.</li>
+      <li><strong>Engineered Python & JS agents</strong> that lowered data‑ops latency 65 % in pilot runs.</li>
+    </ul>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section>
+    <h2>What Hiring Managers Say</h2>
     <div class="test-grid">
       <div class="card">
         <img src="https://cdn.yoursite.com/avatars/vp-rev.png" alt="">
-        <p>“Hass automated <strong>3 FTEs</strong> of manual ops in one sprint.”<br><em>VP Revenue, Series B SaaS</em></p>
+        <p>“Hass automated <strong>3 FTEs</strong> of manual ops in one sprint.”<br><em>VP Revenue, Series B SaaS</em></p>
       </div>
       <div class="card">
         <img src="https://cdn.yoursite.com/avatars/head-eng.png" alt="">
@@ -177,14 +201,14 @@
       </div>
       <div class="card">
         <img src="https://cdn.yoursite.com/avatars/architect.png" alt="">
-        <p>“Cleanest n8n pipeline I’ve reviewed.”<br><em>Solutions Architect, Big 4 Consultancy</em></p>
+        <p>“Cleanest n8n pipeline I’ve reviewed.”<br><em>Solutions Architect, Big 4 Consultancy</em></p>
       </div>
     </div>
   </section>
 
-  <!-- ========== CONTACT ========= -->
+  <!-- ================= CONTACT ================= -->
   <section>
-    <h2>Reach out instantly</h2>
+    <h2>Reach Out Instantly</h2>
     <form name="contact" netlify netlify-honeypot="bot-field" id="contactForm" method="POST">
       <input type="hidden" name="bot-field">
       <label for="name">Name</label>
@@ -198,72 +222,75 @@
     <small class="note">Data routed through Netlify, purged after 7 days.</small>
   </section>
 
-  <!-- ========== WORKFLOW SNAPSHOT ========= -->
+  <!-- ================= WORKFLOW SNAPSHOT ================= -->
   <section>
     <h2>Workflow Snapshot</h2>
     <img class="workflow" src="https://cdn.yoursite.com/lead-router-n8n-diagram.svg"
-         alt="Read‑only diagram of lead‑router‑n8n workflow" loading="lazy">
+         alt="Diagram of lead‑router‑n8n workflow" loading="lazy">
   </section>
 
-  <!-- ========== FOOTER ========= -->
+  <!-- ================= FOOTER ================= -->
   <footer>
-    <small><span id="freshDot"></span>Auto‑deployed 2025‑07‑08 10:42 UTC · © 2025 SmartTech Invest</small>
+    <small><span id="freshDot"></span>Auto‑deployed 2025‑07‑08 10:42 UTC · © 2025 Hass Dhia</small>
   </footer>
 
-  <!-- ========== SCRIPTS ========= -->
+  <!-- ================= SCRIPTS ================= -->
   <script type="module">
   /* dark‑mode toggle */
-  const htmlEl=document.documentElement, themeToggle=document.getElementById('themeToggle');
-  themeToggle.onclick=()=>htmlEl.classList.toggle('dark');
+  const htmlEl=document.documentElement;
+  document.getElementById('themeToggle').onclick=()=>htmlEl.classList.toggle('dark');
 
-  /* count‑up chips */
+  /* metric count‑ups */
   const counters=[...document.querySelectorAll('[data-count]')];
-  const io=new IntersectionObserver(es=>es.forEach(e=>{
-    if(!e.isIntersecting)return;
-    const el=e.target, target=+el.dataset.count;
-    let n=0, inc=Math.ceil(target/60);
-    const tick=()=>{ n+=inc; if(n>=target){el.textContent=target;return;}
-      el.textContent=n; requestAnimationFrame(tick);}
-    tick(); io.unobserve(el);
-  }),{threshold:.8});
+  const io=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(!e.isIntersecting)return;
+      const el=e.target,target=+el.dataset.count;let n=0,inc=Math.ceil(target/60);
+      const tick=()=>{n+=inc;el.textContent=n>=target?target:n; if(n<target)requestAnimationFrame(tick);}
+      tick();io.unobserve(el);
+    });
+  },{threshold:.8});
   counters.forEach(c=>io.observe(c));
 
-  /* sticky CTA reveal */
+  /* sticky CTA */
   const sticky=document.getElementById('stickyDemo');
-  window.addEventListener('scroll',()=>{sticky.style.top=window.scrollY>480?'1rem':'-80px';});
+  window.addEventListener('scroll',()=>{sticky.style.top=scrollY>480?'1rem':'-80px';});
 
-  /* GitHub repos */
-  const repoUL=document.getElementById('repos'), skel=document.getElementById('repoSkeleton'), impact=document.getElementById('impact');
-  fetch('https://api.github.com/users/hass-ops/repos?per_page=100')
+  /* GitHub repos (live) */
+  const repoUL=document.getElementById('repos'),skel=document.getElementById('repoSkeleton'),impact=document.getElementById('impact');
+  fetch('https://api.github.com/users/HassDhia/repos?per_page=100')
    .then(r=>r.json()).then(rs=>{
      const want=['lead-router-n8n','sales-db-insights','heyreach-job-outbound'];
      const show=rs.filter(r=>want.includes(r.name));
      repoUL.innerHTML=show.map(r=>`
       <li><a href="${r.html_url}" target="_blank">${r.name}</a> — ${r.description||'Automation module'}
       <code>${r.size} KB · ★${r.stargazers_count}</code></li>`).join('');
-     repoUL.hidden=false; skel.remove();
+     repoUL.hidden=false;skel.remove();
+     /* demo impact calc */
+     let total=0;show.forEach(r=>{const m=r.description&&r.description.match(/impact-(\d+)/i);if(m)total+=+m[1];});
+     if(total)impact.textContent='$'+total.toLocaleString()+' saved';
    }).catch(()=>skel.remove());
 
-  /* form → Calendly */
-  const cal=document.getElementById('calBtn'), form=document.getElementById('contactForm');
+  /* Calendly autofill */
+  const cal=document.getElementById('calBtn'),form=document.getElementById('contactForm');
   form.addEventListener('submit',()=>{
     const d=new FormData(form);
     cal.href=`https://calendly.com/hass-ops/interview?name=${encodeURIComponent(d.get('name')||'')}&email=${encodeURIComponent(d.get('email')||'')}`;
   });
 
-  /* localized note */
+  /* localized slot note */
   try{
     const tz=Intl.DateTimeFormat().resolvedOptions().timeZone.split('/').pop().replace('_',' ');
-    cal.insertAdjacentHTML('afterend',`<div style="font-size:.8rem;color:var(--muted);margin-top:.2rem">Open slots your afternoon in ${tz}</div>`);
+    cal.insertAdjacentHTML('afterend',`<div style="font-size:.8rem;color:var(--muted);margin-top:.2rem">Slots open this afternoon in ${tz}</div>`);
   }catch{}
 
-  /* reduced motion respect */
-  if(matchMedia('(prefers-reduced-motion:reduce)').matches)counters.forEach(el=>el.textContent=el.dataset.count);
+  /* accessibility: honor reduced‑motion */
+  if(matchMedia('(prefers-reduced-motion:reduce)').matches)
+    counters.forEach(el=>el.textContent=el.dataset.count);
 
   /* console easter egg */
-  console.log('%c👋  Engineer!  Explore the repos & ping me if you want the deep‑dive → hass@hass.dev',
+  console.log('%c👋 Engineer‑friend!  Peek the repos & DM me → hass@hass.dev',
               'background:#0d99ff;color:#fff;padding:4px 8px;border-radius:4px;');
   </script>
 </body>
 </html>
-
